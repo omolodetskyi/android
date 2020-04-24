@@ -15,7 +15,7 @@ import screenObjects.MainScreen;
 import screenObjects.PrefDependenciesScreen;
 import screenObjects.PreferencesScreen;
 
-public class NewTest extends TestBase{
+public class WifiSettingsTest extends TestBase{
 	AndroidDriver driver;
 	MainScreen mainScreen;
 	PreferencesScreen preferencesScreen;

@@ -7,13 +7,14 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 
-public class MainScreen {
-
-	public MainScreen(AppiumDriver driver){
+public class ClockScreen {
+	public ClockScreen(AppiumDriver driver) {
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
 	}
-@AndroidFindBy(xpath="//android.widget.TextView[@text='Preference']")
-public MobileElement preferenceMenuItem;
-@AndroidFindBy(xpath="//android.widget.TextView[@text='Views']")
-public MobileElement viewsMenuItem;
+	@AndroidFindBy(xpath="//*[@content-desc='1']")
+	public MobileElement oneOclock;
+	@AndroidFindBy(xpath="//*[@content-desc='15']")
+	public MobileElement fifteenMinutes;
+	@AndroidFindBy(xpath="//*[@content-desc='30']")
+	public MobileElement thirtyMinutes;
 }
