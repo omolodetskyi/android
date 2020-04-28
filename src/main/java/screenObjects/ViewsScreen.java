@@ -16,4 +16,8 @@ public class ViewsScreen {
 	public MobileElement expListsMenuItem;
 	@AndroidFindBy(xpath="//android.widget.TextView[@text='Date Widgets']")
 	public MobileElement dateWidgetsMenuItem;
+	@AndroidFindBy(xpath="//android.widget.TextView[@text='Drag and Drop']")
+	public MobileElement dragAndDropMenuItem;
+	@AndroidFindBy(uiAutomator="new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"WebView\"))")
+	public MobileElement webViewMenuItem;
 }

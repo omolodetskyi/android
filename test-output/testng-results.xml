@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38056" started-at="2020-04-24T03:52:52Z" finished-at="2020-04-24T03:53:30Z">
+  <suite name="Default suite" duration-ms="51023" started-at="2020-04-28T10:38:38Z" finished-at="2020-04-28T10:39:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38056" started-at="2020-04-24T03:52:52Z" finished-at="2020-04-24T03:53:30Z">
-      <class name="tests.swipeTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.swipeTest@57536d79]" name="beforeTest" is-config="true" duration-ms="29090" started-at="2020-04-24T06:52:52Z" finished-at="2020-04-24T06:53:21Z">
+    <test name="Default test" duration-ms="51023" started-at="2020-04-28T10:38:38Z" finished-at="2020-04-28T10:39:29Z">
+      <class name="tests.ScrollTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.ScrollTest@6f1fba17]" name="beforeTest" is-config="true" duration-ms="32314" started-at="2020-04-28T13:38:38Z" finished-at="2020-04-28T13:39:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="swipeTesting()[pri:0, instance:tests.swipeTest@57536d79]" name="swipeTesting" duration-ms="8951" started-at="2020-04-24T06:53:21Z" finished-at="2020-04-24T06:53:30Z">
+        <test-method status="PASS" signature="scrollingTest()[pri:0, instance:tests.ScrollTest@6f1fba17]" name="scrollingTest" duration-ms="18691" started-at="2020-04-28T13:39:10Z" finished-at="2020-04-28T13:39:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- swipeTesting -->
-      </class> <!-- tests.swipeTest -->
+        </test-method> <!-- scrollingTest -->
+      </class> <!-- tests.ScrollTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
