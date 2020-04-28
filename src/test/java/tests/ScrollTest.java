@@ -29,6 +29,7 @@ public class ScrollTest extends TestBase{
   @Test
   public void scrollingTest() {
 	  mainScreen.viewsMenuItem.click();
+	  //check how findElementByAndroidUIAutomator is working
 	 // System.out.println(driver.findElementByAndroidUIAutomator("new UiSelector().text(\"Controls\")").getText());
 	  //driver.findElementByAndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true)).scrollIntoView(new UiSelector().text(\"WebView\"))");
 	  viewsScreen.webViewMenuItem.click();
