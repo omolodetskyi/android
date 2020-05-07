@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51023" started-at="2020-04-28T10:38:38Z" finished-at="2020-04-28T10:39:29Z">
+  <suite name="Default suite" duration-ms="42204" started-at="2020-05-05T16:01:42Z" finished-at="2020-05-05T16:02:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51023" started-at="2020-04-28T10:38:38Z" finished-at="2020-04-28T10:39:29Z">
-      <class name="tests.ScrollTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.ScrollTest@6f1fba17]" name="beforeTest" is-config="true" duration-ms="32314" started-at="2020-04-28T13:38:38Z" finished-at="2020-04-28T13:39:10Z">
+    <test name="Default test" duration-ms="42204" started-at="2020-05-05T16:01:42Z" finished-at="2020-05-05T16:02:24Z">
+      <class name="tests.WebTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:tests.WebTest@6f1fba17]" name="beforeTest" is-config="true" duration-ms="35850" started-at="2020-05-05T19:01:42Z" finished-at="2020-05-05T19:02:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="scrollingTest()[pri:0, instance:tests.ScrollTest@6f1fba17]" name="scrollingTest" duration-ms="18691" started-at="2020-04-28T13:39:10Z" finished-at="2020-04-28T13:39:29Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:tests.WebTest@6f1fba17]" name="f" duration-ms="6336" started-at="2020-05-05T19:02:17Z" finished-at="2020-05-05T19:02:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollingTest -->
-      </class> <!-- tests.ScrollTest -->
+        </test-method> <!-- f -->
+      </class> <!-- tests.WebTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
